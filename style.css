@@ -84,8 +84,7 @@ ul {
   .grid{
     
     border-radius: 5px 30px 5px 30px;
-    width: 1652px;
-    height:784px;
+    
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
@@ -100,6 +99,8 @@ ul {
   .grid {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    width: 97vw;
+    height:95vh;
   }
   
 
