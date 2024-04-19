@@ -190,3 +190,11 @@ ul {
     border-radius: 15px 15px 15px 15px;
   }
  
+  .butt{
+    
+    border-width: 0px;
+    background-color: #e5e5e5;
+    align-items: center;
+    cursor: pointer;
+   
+  }
