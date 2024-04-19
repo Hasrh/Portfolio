@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Nifty';
+  src: url('assets/fonts/Nifty/Nifty/Nifty-Regular.ttf') format('truetype');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  
+  background-color: #2b00ff;
+}
+p{
+  font-family: 'Nifty';
+  color: #2b00ff;
+  font-size: 30px;
+}
+h1,h2,h3{
+  font-family: 'Nifty';
+  color: #2b00ff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+ .navhome ,.about,.contact{
+  font-family: 'Nifty';
+  color: #2b00ff;
+ }
+  .navbar {
+    
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    z-index: 100;
+    float: right;
+    
+  }
+  .topnav {
+    
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    
+    padding: 0 20px;
+}
+.about{
+  margin-right: 15px;
+  border: 1px solid #2b00ff;
+  border-radius: 15px;
+  display: block;
+  padding: 8px 20px 6px;
+  
+  
+  
+}
+.navhome{
+  margin-right: 15px;
+  border: 1px solid #2b00ff;
+  border-radius: 15px;
+  display: block;
+  padding: 8px 20px 6px;
+}
+.contact{
+  border: 1px solid #2b00ff;
+  border-radius: 15px;
+  display: block;
+  padding: 8px 20px 6px;
+  margin-right: 15px;
+
+}
+  .topnav :hover {
+    background-color: #2b00ff;
+    color: white;
+    transition: 0.5s;
+  }
+
+  .grid{
+    
+    border-radius: 5px 30px 5px 30px;
+    width: 1652px;
+    height:784px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #e5e5e5;
+
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .grid::-webkit-scrollbar {
+    display: none;
+  }
+  .grid {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+
+  .name{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+    
+  }
+
+
+  .about_1::after {
+    
+    clear: both;
+    display: table;
+
+  }
+  .about_img{
+      float: left;
+      margin-left: 5%;
+      margin-right: auto;
+      
+  }
+  .intro_txt{
+    padding: 80px;
+  text-align: center;
+  }
+  .intro{
+    margin-left: 5%;
+  }
+  .projects{
+    
+      
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      margin: 0;
+      width: 100vw; 
+  }
+  .pro-text{
+    padding-right: 1000px;
+  }
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+   text-decoration: none; 
+   
+  }
+ 
+ footer{
+  align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      margin: 0;
+      width: 100vw; 
+ }
+
+ .social-icons{
+  
+    padding: 25px;
+
+ }
+ main{
+  display: block;
+ }
+  
+ h1{
+  font-size:70px;
+ }
+
+ .intro{
+  margin-left: 260px;
+  font-size:70px;
+ }
+ .about_img{margin-left: 260px;
+  
+  }
+
+  .profilepic{
+    border-radius: 15px 15px 15px 15px;
+  }
+ 
+  .butt{
+    
+    border-width: 0px;
+    background-color: #e5e5e5;
+    align-items: center;
+    cursor: pointer;
+   
+  }
