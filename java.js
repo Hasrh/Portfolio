@@ -9,3 +9,5 @@ navbarLinks.forEach((link) => {
         section.scrollIntoView({ behavior: 'smooth' });
     });
 });
+
+console.log("");

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harsh Sharma's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Nifty';
+            src: url('assets/fonts/Nifty/Nifty/Nifty-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --primary-color: #2b00ff;
+            --background-color: #e5e5e5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Nifty', sans-serif;
+            background-color: var(--primary-color);
+            color: var(--primary-color);
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .grid {
+            background-color: var(--background-color);
+            border-radius: 5px 30px 5px 30px;
+            overflow-y: auto;
+            width: 95vw;
+            height: 95vh;
+            margin: 2.5vh auto;
+            padding: 20px;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .topnav {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .topnav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 8px 20px 6px;
+            margin: 5px;
+            border: 1px solid var(--primary-color);
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .topnav a:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 20px;
+        }
+
+        .name {
+            text-align: center;
+            font-size: 3rem;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .about_1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .about_img {
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+
+        .profilepic {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .intro_txt {
+            flex: 2 1 300px;
+            max-width: 600px;
+        }
+
+        .projects, footer {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 25px;
+            height: 25px;
+        }
+
+        @media (max-width: 768px) {
+            .topnav {
+                justify-content: center;
+            }
+
+            .name {
+                font-size: 2rem;
+            }
+
+            .about_1 {
+                flex-direction: column;
+            }
+
+            .intro_txt {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <nav class="navbar">
+            <ul class="topnav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about_1">About</a></li>
+                <li><a href="#projectss">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section id="home">
+                <h1 class="name">Harsh Sharma</h1>
+            </section>
+       
+            <section id="about_1" class="about_1">
+                <div class="about_img"> 
+                    <img class="profilepic" src="assets/pfp.JPG" alt="Profile Image">
+                </div>
+
+                <div class="intro_txt">
+                    <h2>About Me</h2>
+                    <p>Hi! I am a 2nd Year Computer Science student @ VIT Vellore. I am a passionate developer who is always eager to learn and work on new technologies. Currently, I am working on a project which allows people to indulge in a never-ending arcade experience!</p>
+                    <p>Although a bit empty as of now, I have my projects and resume linked below for anyone interested.</p>
+                    <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button class="butt">View Resume</button>
+                    </a>
+                </div>
+            </section>
+
+            <section id="projectss" class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://github.com/Hasrh/WeatherApp" target="_blank" rel="noopener noreferrer">Weather App</a></li>
+                    <li><a href="https://github.com/Hasrh" target="_blank" rel="noopener noreferrer">Project 2</a></li>
+                    <li><a href="https://github.com/Hasrh" target="_blank" rel="noopener noreferrer">Project 3</a></li>
+                </ul>
+            </section>
+        
+            <footer id="Contact">
+                <h2>Contact Me</h2>
+                <div class="social-icons">
+                    <a href="https://open.spotify.com/user/31vqvi3r6ogl6f2t66yvs2mrfqrq?si=b9bd3fa46da74585" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/spo.png" alt="Spotify">
+                    </a>
+                    <a href="mailto:harshsharma1338@gmail.com">
+                        <img src="assets/email.png" alt="Email">
+                    </a>
+                    <a href="https://www.instagram.com/hharsh.sharmaa" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/insta.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/harsh-sharma-a132621b7/" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Hasrh" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/github.png" alt="GitHub">
+                    </a>
+                </div>
+                <p><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noopener noreferrer">ayein?</a></p>
+            </footer>
+        </main>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
